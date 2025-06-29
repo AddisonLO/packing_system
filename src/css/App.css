@@ -1,0 +1,55 @@
+.companyName {
+  background-color: grey;
+  min-height: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.Receiver{
+  background-color: grey;
+  /*margin-right: -10px;*/
+}
+
+.address{
+  text-align: center;
+}
+
+.pageTitle{
+  text-align: center;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  width: calc(100% - 40px); /* Full width minus margins */
+  height: 50vh; /* Height is 50% of the viewport height */
+  margin: 20px; /* Set margin */
+  box-sizing: border-box; /* Include padding and border */
+}
+
+.meta-info {
+  height: 20%; /* 20% of the large rectangle's height */
+  background-color: white; /* Example background color */
+  border: 2px solid black; /* Add border */
+  font-size: 9px;
+}
+
+.skip-line {
+  height: 5px; /* Very short height for skipping line */
+  background-color: transparent; /* Adjust as needed */
+  border: 2px solid black; /* Add border */
+}
+
+
+@media (max-width: 480px){
+  .Receiver{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+}

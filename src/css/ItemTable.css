@@ -1,0 +1,30 @@
+.item-table {
+  flex-grow: 1; /* Takes the remaining space */
+  background-color: white; /* Example background color for the table */
+  border: 2px solid black; /* Add border */
+  width: 100%; /* Match the width of the parent rectangle */
+  height: 100%; /* Match the height of the parent rectangle */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.item-table table {
+  width: 100%;
+  border-collapse: collapse;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  border-collapse: collapse; /* Combine borders */
+  table-layout: fixed; /* Ensure equal column widths */
+}
+
+.item-table th, .item-table td {
+  border: 1px solid black; /* Border for cells */
+  padding: 8px; /* Padding inside cells */
+  text-align: left; /* Align text */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Show ellipsis for overflow text */
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.item-table th {
+  background-color: grey;
+}
